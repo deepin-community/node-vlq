@@ -1,0 +1,105 @@
+node-vlq (2.0.4-2) unstable; urgency=medium
+
+  * Fix d/watch (again).
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 25 Oct 2021 09:55:53 +0200
+
+node-vlq (2.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop patch (now useless).
+  * Adapt to upstream's new build.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 19 Oct 2021 07:14:47 +0200
+
+node-vlq (1.0.1-4) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  * Add missing build dependency on rollup.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+  * Bump debhelper-compat to 13.
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 26 Aug 2021 22:08:20 +0200
+
+node-vlq (1.0.1-3) unstable; urgency=medium
+
+  * Move files to /usr/share/nodejs.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 31 Aug 2019 19:06:07 +0200
+
+node-vlq (1.0.1-2) unstable; urgency=medium
+
+  * Bump dh compat to 12 and drop d/compat.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Jul 2019 21:45:14 +0200
+
+node-vlq (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Mark the package Multi-Arch: foreign following hinter.
+  * Bump std-ver to 4.4.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 08 Jul 2019 08:28:43 +0200
+
+node-vlq (1.0.0-3) unstable; urgency=medium
+
+  * Point d/watch to /releases instead of /tags.
+  * Bump std-ver to 4.2.0.
+  * Run upstream test suite in autopkgtest.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 15 Aug 2018 22:45:46 +0200
+
+node-vlq (1.0.0-2) unstable; urgency=medium
+
+  * Refresh packaging:
+   - Use my debian.org mail address.
+   - Bump dh compat to 11.
+   - Bump std-ver to 4.1.5.
+   - Point Vcs-* fields to salsa.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 07 Aug 2018 16:44:33 +0200
+
+node-vlq (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Update dates in d/copyright.
+    - Bump std-ver to 4.1.3.
+    - Move from node-babel to node-typescript.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 15 Jan 2018 11:16:48 +0100
+
+node-vlq (0.2.3-2) unstable; urgency=medium
+
+  * Move from node-es6-module-transpiler to node-babel.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 03 Nov 2017 11:36:58 +0100
+
+node-vlq (0.2.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Move from section web to section javascript.
+  * Bump d/watch to version 4.
+  * Bump std-ver to 4.1.1.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Fri, 06 Oct 2017 08:28:23 +0200
+
+node-vlq (0.2.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 20 Apr 2017 18:09:38 +0200
+
+node-vlq (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #844388)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 15 Nov 2016 07:22:02 +0100

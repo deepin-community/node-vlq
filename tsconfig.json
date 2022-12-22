@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"noImplicitAny": true,
+		"diagnostics": true,
+		"noImplicitThis": true,
+		"target": "esnext",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"outDir": "types",
+		"noEmit": false
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

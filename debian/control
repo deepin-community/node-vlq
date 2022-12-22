@@ -1,0 +1,26 @@
+Source: node-vlq
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , nodejs
+ , node-typescript
+ , pkg-js-tools (>= 0.9.13~)
+ , rollup
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/Rich-Harris/vlq
+Vcs-Git: https://salsa.debian.org/js-team/node-vlq.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-vlq
+Testsuite: autopkgtest-pkg-nodejs
+
+Package: node-vlq
+Architecture: all
+Multi-Arch: foreign
+Depends: nodejs, ${misc:Depends}
+Description: Variable-length quantity mapper for Node.js
+ Generate and decode base64 variable-length quantity mappings for
+ source maps and other uses.
+ .
+ Node.js is an event-based server-side JavaScript engine.
